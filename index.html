@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Built Environment AI Initiative</title>
+  <meta name="description" content="Independent open-science initiative advancing interpretable AI-BIM integration and resource-frugal building performance modeling." />
+  <style>
+    :root {
+      --bg: #fafaf9;
+      --surface: #ffffff;
+      --text: #1c1917;
+      --muted: #57534e;
+      --accent: #1e3a8a;
+      --accent-soft: #eff6ff;
+      --border: #e7e5e4;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container { max-width: 860px; margin: 0 auto; padding: 3rem 1.5rem 4.5rem; }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 2.2rem;
+      margin-bottom: 2.5rem;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 0.3rem 0.7rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+    h1 { font-size: 2.2rem; line-height: 1.2; letter-spacing: -0.02em; margin-bottom: 0.9rem; }
+    .lead { font-size: 1.12rem; color: var(--muted); max-width: 720px; margin-bottom: 1.5rem; }
+    .actions { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+    .btn {
+      display: inline-block;
+      padding: 0.65rem 1.15rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+    }
+    .btn-primary { background: var(--accent); color: #ffffff; border-color: var(--accent); }
+    section { margin-bottom: 2.8rem; }
+    h2 { font-size: 1.35rem; margin-bottom: 1rem; letter-spacing: -0.01em; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.35rem;
+    }
+    .card h3 { font-size: 1.05rem; margin-bottom: 0.45rem; }
+    .card p { font-size: 0.94rem; color: var(--muted); }
+    .project-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .project-meta {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 0.35rem;
+    }
+    .project-card h3 { font-size: 1.15rem; margin-bottom: 0.5rem; }
+    .project-card p { font-size: 0.95rem; color: var(--muted); margin-bottom: 0.9rem; }
+    .link { color: var(--accent); font-weight: 600; text-decoration: none; font-size: 0.93rem; }
+    .link:hover { text-decoration: underline; }
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 1.8rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">Open-Science Research Initiative</span>
+      <h1>Built Environment AI Initiative</h1>
+      <p class="lead">
+        Advancing interpretable AI–BIM integration, physics-informed surrogate modeling, and resource-frugal computational workflows for sustainable building performance.
+      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://github.com/built-environment-ai" target="_blank" rel="noopener">GitHub Organization</a>
+        <a class="btn" href="https://github.com/built-environment-ai/governance/blob/main/CHARTER.md" target="_blank" rel="noopener">Institutional Charter</a>
+        <a class="btn" href="mailto:contact@built-environment-ai.org">contact@built-environment-ai.org</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Core Research Principles</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Interpretable Surrogates</h3>
+          <p>Coupling BIM parameters and dynamic EnergyPlus simulations with explainable ML (SHAP, sensitivity analysis, uncertainty bounds).</p>
+        </div>
+        <div class="card">
+          <h3>Resource-Frugal AI</h3>
+          <p>Designing lean tabular and geometric workflows accessible without hyperscale computing infrastructure.</p>
+        </div>
+        <div class="card">
+          <h3>Human-Centered Agency</h3>
+          <p>Automating technical interoperability bottlenecks while preserving architectural authorship and engineering judgment.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Active Research Registry</h2>
+      <div class="project-card">
+        <div class="project-meta">P001 &bull; Status: Protocol Registered (November 2026) &bull; PRISMA-ScR</div>
+        <h3>AI–BIM Integration for Early-Stage Building Energy Performance Prediction: A Scoping Review</h3>
+        <p>
+          Systematic mapping of BIM authoring schemas (IFC, gbXML), automated extraction pipelines, machine learning surrogate architectures, and explainability practices across early-stage building energy modeling.
+        </p>
+        <a class="link" href="https://github.com/built-environment-ai/p001-ai-bim-energy-scoping-review" target="_blank" rel="noopener">View Protocol &amp; Repository &rarr;</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-meta">Institutional Governance &bull; CC BY 4.0 &amp; MIT</div>
+        <h3>Charter, Open-Science Standards &amp; Licensing Policy</h3>
+        <p>
+          Foundational governance framework defining project lifecycle states, reproducibility requirements, CRediT authorship guidelines, and open licensing standards.
+        </p>
+        <a class="link" href="https://github.com/built-environment-ai/governance" target="_blank" rel="noopener">Read Governance Repository &rarr;</a>
+      </div>
+    </section>
+
+    <footer>
+      <div>&copy; 2026 Built Environment AI Initiative &bull; Principal Investigator: Hadjer Bessai</div>
+      <div>Contact: <a class="link" href="mailto:contact@built-environment-ai.org">contact@built-environment-ai.org</a></div>
+    </footer>
+  </div>
+</body>
+</html>
